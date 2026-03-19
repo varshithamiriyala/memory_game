@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background: lightgray;
+    font-size: 24px;
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.matched {
+    background: lightgreen;
+}
+
+.hidden {
+    background: darkgray;
+    color: transparent;
+}
